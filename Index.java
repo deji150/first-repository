@@ -15,7 +15,10 @@ public class Index{
     System.out.println("6. Reverse");
     System.out.println("7. First Array");
     System.out.println("8. Second Array");
-    System.out.println("9. Exit");
+    System.out.println("9. Enhanced for");
+    System.out.println("10. Try Catch");
+    System.out.println("11. Search");
+    System.out.println("12. Exit");
 
     System.out.println();
 
@@ -61,6 +64,18 @@ public class Index{
 	    System.out.println();
 	   	SecondArray.main(null);
 	   	case 9:
+		System.out.println("Enhanced For excercise");
+		System.out.println();
+	   	EnhancedFor.main(null);
+	   	case 10:
+		System.out.println("Try Catch excercise");
+		System.out.println();
+	   	TryCatch.main(null);
+	   	case 11:
+		System.out.println("Search lab excercise");
+		System.out.println();
+	   	Search.main(null);
+	   	case 12:
 	    System.out.println(" Exit");
         break;
       	default:
