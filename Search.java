@@ -52,7 +52,13 @@ public class Search{
    match++;
    if(match == 1){
 	}
-    System.out.println(dataSet[i][0]+"\t"+dataSet[i][3]);
+    System.out.println();
+    System.out.println("Name: " +dataSet[i][0]);
+    System.out.println("Job: " +dataSet[i][1]);
+    System.out.println("City: " +dataSet[i][2]);
+    System.out.println("Zip Code: " +dataSet[i][3]);
+    System.out.println("Start Date: " +dataSet[i][4]);
+    System.out.println("Salary: " +dataSet[i][5]);
 
   }
  }
